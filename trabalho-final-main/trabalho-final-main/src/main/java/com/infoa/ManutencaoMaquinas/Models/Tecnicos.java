@@ -1,4 +1,4 @@
-package com.infoa.ManutencaoMaquinas.Models;
+package com.infoa.postgresqll.Models;
 
 import java.time.LocalDate;
 
@@ -83,3 +83,4 @@ public class Tecnicos {
 
     
 }
+
