@@ -40,14 +40,11 @@ O objetivo é fornecer uma solução completa e escalável para plataformas de v
 
 ---
 
-## 🖼️ Prints das Telas (FlutterFlow)
-
- - Prints do projeto:
-
----
-
 ## 🔗 Link do Swagger
 https://ativ-ind.onrender.com/ativ-indv/swagger-ui/index.html#/
+
+## **Documentação
+https://docs.google.com/document/d/11WFOGBmWDFMRozhzafUSi3UlMT1oSYvv5t6EXKieing/edit?usp=sharing
 
 
 
