@@ -3,11 +3,15 @@ package com.senai.infoa.trabalho_indv.Controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.senai.infoa.trabalho_indv.Models.Endereco;
 import com.senai.infoa.trabalho_indv.Service.EnderecoService;
 
+@RestController
+@RequestMapping("/Endereco")
 public class EnderecoController {
     @Autowired
     private EnderecoService enderecoService;
