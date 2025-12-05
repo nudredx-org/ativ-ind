@@ -23,8 +23,8 @@ public class UsuarioController {
     }
 
     @PostMapping("/Login")
-    public Usuario loginUsuario(@RequestParam String emamil, @RequestParam String senha) {
-        return usuarioService.loginUsuario(emamil, senha);
+    public Usuario loginUsuario(@RequestParam String email, @RequestParam String senha) {
+        return usuarioService.loginUsuario(email, senha);
     }
 
     @GetMapping("/ListarPorId")
